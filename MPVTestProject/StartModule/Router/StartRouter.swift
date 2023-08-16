@@ -10,7 +10,8 @@ final class StartRouter {
 
 extension StartRouter: StartRouterInput {
     func routerToLogin() {
-        print(#function)
+        let loginView = LoginAssembly.assemble()
+        view?.navigationController?.pushViewController(loginView, animated: true)
     }
     
     func routeToRegister() {

@@ -14,9 +14,17 @@ final class StartPresenter {
 // MARK: - View Input //ПРИШЛО ОТ ВЬЮ
 
 extension StartPresenter: StartPresenterProtocol {
-    
     // ВЬЮ ОПОВЕСТИЛО ЧТО ВЬЮ БЫЛО ЗАГРУЖЕНО
     func viewDidLoad() {
         view?.changeBackgroundColor()
     }
+    
+    func didTapLogin() {
+        router.routerToLogin()
+    }
+    
+    func didTapRegister() {
+        router.routeToRegister()
+    }
+    
 }
