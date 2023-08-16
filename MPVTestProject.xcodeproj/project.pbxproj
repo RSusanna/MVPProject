@@ -8,18 +8,53 @@
 
 /* Begin PBXBuildFile section */
 		80B5A4102A8D476D001665EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B5A40F2A8D476D001665EB /* AppDelegate.swift */; };
-		80B5A4142A8D476D001665EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B5A4132A8D476D001665EB /* ViewController.swift */; };
+		80B5A4142A8D476D001665EB /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B5A4132A8D476D001665EB /* StartViewController.swift */; };
 		80B5A4192A8D476F001665EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B5A4182A8D476F001665EB /* Assets.xcassets */; };
 		80B5A41C2A8D476F001665EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B5A41A2A8D476F001665EB /* LaunchScreen.storyboard */; };
+		80B5A42D2A8D4BEE001665EB /* StartRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B5A42C2A8D4BEE001665EB /* StartRouterInput.swift */; };
+		80B5A4302A8D4C0F001665EB /* StartRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B5A42F2A8D4C0F001665EB /* StartRouter.swift */; };
+		80B5A4352A8D4D5E001665EB /* StartViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B5A4342A8D4D5E001665EB /* StartViewInput.swift */; };
+		80B5A4372A8D4DDD001665EB /* StartPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B5A4362A8D4DDD001665EB /* StartPresenterProtocol.swift */; };
+		80B5A4392A8D4DEC001665EB /* StartPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B5A4382A8D4DEC001665EB /* StartPresenter.swift */; };
+		80B5A43B2A8D4F75001665EB /* StartAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B5A43A2A8D4F75001665EB /* StartAssembly.swift */; };
+		80B5A43E2A8D52AC001665EB /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 80B5A43D2A8D52AC001665EB /* SnapKit */; };
+		80B5A4432A8D5311001665EB /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B5A4422A8D5311001665EB /* BaseViewController.swift */; };
+		80B5A4462A8D5460001665EB /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B5A4452A8D5460001665EB /* UIColor+Extension.swift */; };
+		80B5A4482A8D5472001665EB /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B5A4472A8D5472001665EB /* UIFont+Extension.swift */; };
+		80B5A44F2A8D5B8F001665EB /* LoginRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B5A44E2A8D5B8E001665EB /* LoginRouterInput.swift */; };
+		80B5A4512A8D5B96001665EB /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B5A4502A8D5B96001665EB /* LoginRouter.swift */; };
+		80B5A4532A8D5BFB001665EB /* LoginPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B5A4522A8D5BFB001665EB /* LoginPresenterProtocol.swift */; };
+		80B5A4552A8D5C0D001665EB /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B5A4542A8D5C0D001665EB /* LoginPresenter.swift */; };
+		80B5A4572A8D5C36001665EB /* LoginViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B5A4562A8D5C36001665EB /* LoginViewInput.swift */; };
+		80B5A4592A8D5C54001665EB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B5A4582A8D5C54001665EB /* LoginViewController.swift */; };
+		80B5A45B2A8D5C81001665EB /* LoginAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B5A45A2A8D5C81001665EB /* LoginAssembly.swift */; };
+		80B5A45D2A8D5FE4001665EB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 80B5A45C2A8D5FE4001665EB /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		80B5A40C2A8D476D001665EB /* MPVTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPVTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80B5A40F2A8D476D001665EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		80B5A4132A8D476D001665EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80B5A4132A8D476D001665EB /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		80B5A4182A8D476F001665EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80B5A41B2A8D476F001665EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80B5A41D2A8D476F001665EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80B5A42C2A8D4BEE001665EB /* StartRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartRouterInput.swift; sourceTree = "<group>"; };
+		80B5A42F2A8D4C0F001665EB /* StartRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartRouter.swift; sourceTree = "<group>"; };
+		80B5A4342A8D4D5E001665EB /* StartViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewInput.swift; sourceTree = "<group>"; };
+		80B5A4362A8D4DDD001665EB /* StartPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPresenterProtocol.swift; sourceTree = "<group>"; };
+		80B5A4382A8D4DEC001665EB /* StartPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPresenter.swift; sourceTree = "<group>"; };
+		80B5A43A2A8D4F75001665EB /* StartAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartAssembly.swift; sourceTree = "<group>"; };
+		80B5A4422A8D5311001665EB /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		80B5A4452A8D5460001665EB /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		80B5A4472A8D5472001665EB /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		80B5A44E2A8D5B8E001665EB /* LoginRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouterInput.swift; sourceTree = "<group>"; };
+		80B5A4502A8D5B96001665EB /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		80B5A4522A8D5BFB001665EB /* LoginPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenterProtocol.swift; sourceTree = "<group>"; };
+		80B5A4542A8D5C0D001665EB /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		80B5A4562A8D5C36001665EB /* LoginViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewInput.swift; sourceTree = "<group>"; };
+		80B5A4582A8D5C54001665EB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		80B5A45A2A8D5C81001665EB /* LoginAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAssembly.swift; sourceTree = "<group>"; };
+		80B5A45C2A8D5FE4001665EB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80B5A43E2A8D52AC001665EB /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +72,7 @@
 		80B5A4032A8D476D001665EB = {
 			isa = PBXGroup;
 			children = (
+				80B5A45C2A8D5FE4001665EB /* README.md */,
 				80B5A40E2A8D476D001665EB /* MPVTestProject */,
 				80B5A40D2A8D476D001665EB /* Products */,
 			);
@@ -52,12 +89,12 @@
 		80B5A40E2A8D476D001665EB /* MPVTestProject */ = {
 			isa = PBXGroup;
 			children = (
+				80B5A43F2A8D52E5001665EB /* Base */,
+				80B5A4242A8D4878001665EB /* App */,
 				80B5A4272A8D4898001665EB /* RegisterModule */,
 				80B5A4262A8D4893001665EB /* LoginModule */,
 				80B5A4252A8D488D001665EB /* StartModule */,
-				80B5A4242A8D4878001665EB /* App */,
 				80B5A4232A8D4869001665EB /* SupportingFiles */,
-				80B5A4132A8D476D001665EB /* ViewController.swift */,
 			);
 			path = MPVTestProject;
 			sourceTree = "<group>";
@@ -83,6 +120,10 @@
 		80B5A4252A8D488D001665EB /* StartModule */ = {
 			isa = PBXGroup;
 			children = (
+				80B5A42B2A8D4B93001665EB /* Assembly */,
+				80B5A4292A8D4B7F001665EB /* View */,
+				80B5A4282A8D4B7A001665EB /* Presenter */,
+				80B5A42A2A8D4B8A001665EB /* Router */,
 			);
 			path = StartModule;
 			sourceTree = "<group>";
@@ -90,6 +131,10 @@
 		80B5A4262A8D4893001665EB /* LoginModule */ = {
 			isa = PBXGroup;
 			children = (
+				80B5A44C2A8D5B7A001665EB /* Assembly */,
+				80B5A44B2A8D5B77001665EB /* View */,
+				80B5A44A2A8D5B73001665EB /* Presenter */,
+				80B5A4492A8D5B6C001665EB /* Router */,
 			);
 			path = LoginModule;
 			sourceTree = "<group>";
@@ -99,6 +144,110 @@
 			children = (
 			);
 			path = RegisterModule;
+			sourceTree = "<group>";
+		};
+		80B5A4282A8D4B7A001665EB /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				80B5A4362A8D4DDD001665EB /* StartPresenterProtocol.swift */,
+				80B5A4382A8D4DEC001665EB /* StartPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		80B5A4292A8D4B7F001665EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				80B5A4132A8D476D001665EB /* StartViewController.swift */,
+				80B5A4342A8D4D5E001665EB /* StartViewInput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		80B5A42A2A8D4B8A001665EB /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				80B5A42C2A8D4BEE001665EB /* StartRouterInput.swift */,
+				80B5A42F2A8D4C0F001665EB /* StartRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		80B5A42B2A8D4B93001665EB /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				80B5A43A2A8D4F75001665EB /* StartAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		80B5A43F2A8D52E5001665EB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				80B5A4412A8D530A001665EB /* UI */,
+				80B5A4402A8D52E9001665EB /* Extensions */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		80B5A4402A8D52E9001665EB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				80B5A4442A8D5454001665EB /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		80B5A4412A8D530A001665EB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				80B5A4422A8D5311001665EB /* BaseViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		80B5A4442A8D5454001665EB /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				80B5A4452A8D5460001665EB /* UIColor+Extension.swift */,
+				80B5A4472A8D5472001665EB /* UIFont+Extension.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		80B5A4492A8D5B6C001665EB /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				80B5A4502A8D5B96001665EB /* LoginRouter.swift */,
+				80B5A44E2A8D5B8E001665EB /* LoginRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		80B5A44A2A8D5B73001665EB /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				80B5A4522A8D5BFB001665EB /* LoginPresenterProtocol.swift */,
+				80B5A4542A8D5C0D001665EB /* LoginPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		80B5A44B2A8D5B77001665EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				80B5A4582A8D5C54001665EB /* LoginViewController.swift */,
+				80B5A4562A8D5C36001665EB /* LoginViewInput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		80B5A44C2A8D5B7A001665EB /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				80B5A45A2A8D5C81001665EB /* LoginAssembly.swift */,
+			);
+			path = Assembly;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,6 +266,9 @@
 			dependencies = (
 			);
 			name = MPVTestProject;
+			packageProductDependencies = (
+				80B5A43D2A8D52AC001665EB /* SnapKit */,
+			);
 			productName = MPVTestProject;
 			productReference = 80B5A40C2A8D476D001665EB /* MPVTestProject.app */;
 			productType = "com.apple.product-type.application";
@@ -145,6 +297,9 @@
 				Base,
 			);
 			mainGroup = 80B5A4032A8D476D001665EB;
+			packageReferences = (
+				80B5A43C2A8D52AC001665EB /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 80B5A40D2A8D476D001665EB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -159,6 +314,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80B5A45D2A8D5FE4001665EB /* README.md in Resources */,
 				80B5A41C2A8D476F001665EB /* LaunchScreen.storyboard in Resources */,
 				80B5A4192A8D476F001665EB /* Assets.xcassets in Resources */,
 			);
@@ -171,8 +327,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80B5A4142A8D476D001665EB /* ViewController.swift in Sources */,
+				80B5A4142A8D476D001665EB /* StartViewController.swift in Sources */,
+				80B5A43B2A8D4F75001665EB /* StartAssembly.swift in Sources */,
+				80B5A4372A8D4DDD001665EB /* StartPresenterProtocol.swift in Sources */,
+				80B5A4572A8D5C36001665EB /* LoginViewInput.swift in Sources */,
+				80B5A44F2A8D5B8F001665EB /* LoginRouterInput.swift in Sources */,
 				80B5A4102A8D476D001665EB /* AppDelegate.swift in Sources */,
+				80B5A4392A8D4DEC001665EB /* StartPresenter.swift in Sources */,
+				80B5A45B2A8D5C81001665EB /* LoginAssembly.swift in Sources */,
+				80B5A4532A8D5BFB001665EB /* LoginPresenterProtocol.swift in Sources */,
+				80B5A4432A8D5311001665EB /* BaseViewController.swift in Sources */,
+				80B5A42D2A8D4BEE001665EB /* StartRouterInput.swift in Sources */,
+				80B5A4552A8D5C0D001665EB /* LoginPresenter.swift in Sources */,
+				80B5A4302A8D4C0F001665EB /* StartRouter.swift in Sources */,
+				80B5A4352A8D4D5E001665EB /* StartViewInput.swift in Sources */,
+				80B5A4592A8D5C54001665EB /* LoginViewController.swift in Sources */,
+				80B5A4462A8D5460001665EB /* UIColor+Extension.swift in Sources */,
+				80B5A4512A8D5B96001665EB /* LoginRouter.swift in Sources */,
+				80B5A4482A8D5472001665EB /* UIFont+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,7 +485,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X6QCC36TXK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MPVTestProject/Info.plist;
+				INFOPLIST_FILE = MPVTestProject/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -344,7 +516,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X6QCC36TXK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MPVTestProject/Info.plist;
+				INFOPLIST_FILE = MPVTestProject/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -388,6 +560,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		80B5A43C2A8D52AC001665EB /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		80B5A43D2A8D52AC001665EB /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80B5A43C2A8D52AC001665EB /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 80B5A4042A8D476D001665EB /* Project object */;
 }
