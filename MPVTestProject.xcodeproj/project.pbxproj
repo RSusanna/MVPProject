@@ -8,18 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		80B5A4102A8D476D001665EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B5A40F2A8D476D001665EB /* AppDelegate.swift */; };
-		80B5A4142A8D476D001665EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B5A4132A8D476D001665EB /* ViewController.swift */; };
+		80B5A4142A8D476D001665EB /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B5A4132A8D476D001665EB /* StartViewController.swift */; };
 		80B5A4192A8D476F001665EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B5A4182A8D476F001665EB /* Assets.xcassets */; };
 		80B5A41C2A8D476F001665EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B5A41A2A8D476F001665EB /* LaunchScreen.storyboard */; };
+		80B5A42D2A8D4BEE001665EB /* StartRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B5A42C2A8D4BEE001665EB /* StartRouterInput.swift */; };
+		80B5A4302A8D4C0F001665EB /* StartRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B5A42F2A8D4C0F001665EB /* StartRouter.swift */; };
+		80B5A4352A8D4D5E001665EB /* StartViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B5A4342A8D4D5E001665EB /* StartViewInput.swift */; };
+		80B5A4372A8D4DDD001665EB /* StartPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B5A4362A8D4DDD001665EB /* StartPresenterProtocol.swift */; };
+		80B5A4392A8D4DEC001665EB /* StartPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B5A4382A8D4DEC001665EB /* StartPresenter.swift */; };
+		80B5A43B2A8D4F75001665EB /* StartAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B5A43A2A8D4F75001665EB /* StartAssembly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		80B5A40C2A8D476D001665EB /* MPVTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPVTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80B5A40F2A8D476D001665EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		80B5A4132A8D476D001665EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80B5A4132A8D476D001665EB /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		80B5A4182A8D476F001665EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80B5A41B2A8D476F001665EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80B5A41D2A8D476F001665EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80B5A42C2A8D4BEE001665EB /* StartRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartRouterInput.swift; sourceTree = "<group>"; };
+		80B5A42F2A8D4C0F001665EB /* StartRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartRouter.swift; sourceTree = "<group>"; };
+		80B5A4342A8D4D5E001665EB /* StartViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewInput.swift; sourceTree = "<group>"; };
+		80B5A4362A8D4DDD001665EB /* StartPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPresenterProtocol.swift; sourceTree = "<group>"; };
+		80B5A4382A8D4DEC001665EB /* StartPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPresenter.swift; sourceTree = "<group>"; };
+		80B5A43A2A8D4F75001665EB /* StartAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartAssembly.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,12 +64,11 @@
 		80B5A40E2A8D476D001665EB /* MPVTestProject */ = {
 			isa = PBXGroup;
 			children = (
+				80B5A4242A8D4878001665EB /* App */,
 				80B5A4272A8D4898001665EB /* RegisterModule */,
 				80B5A4262A8D4893001665EB /* LoginModule */,
 				80B5A4252A8D488D001665EB /* StartModule */,
-				80B5A4242A8D4878001665EB /* App */,
 				80B5A4232A8D4869001665EB /* SupportingFiles */,
-				80B5A4132A8D476D001665EB /* ViewController.swift */,
 			);
 			path = MPVTestProject;
 			sourceTree = "<group>";
@@ -83,6 +94,10 @@
 		80B5A4252A8D488D001665EB /* StartModule */ = {
 			isa = PBXGroup;
 			children = (
+				80B5A42B2A8D4B93001665EB /* Assembly */,
+				80B5A4292A8D4B7F001665EB /* View */,
+				80B5A4282A8D4B7A001665EB /* Presenter */,
+				80B5A42A2A8D4B8A001665EB /* Router */,
 			);
 			path = StartModule;
 			sourceTree = "<group>";
@@ -99,6 +114,41 @@
 			children = (
 			);
 			path = RegisterModule;
+			sourceTree = "<group>";
+		};
+		80B5A4282A8D4B7A001665EB /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				80B5A4362A8D4DDD001665EB /* StartPresenterProtocol.swift */,
+				80B5A4382A8D4DEC001665EB /* StartPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		80B5A4292A8D4B7F001665EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				80B5A4132A8D476D001665EB /* StartViewController.swift */,
+				80B5A4342A8D4D5E001665EB /* StartViewInput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		80B5A42A2A8D4B8A001665EB /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				80B5A42C2A8D4BEE001665EB /* StartRouterInput.swift */,
+				80B5A42F2A8D4C0F001665EB /* StartRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		80B5A42B2A8D4B93001665EB /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				80B5A43A2A8D4F75001665EB /* StartAssembly.swift */,
+			);
+			path = Assembly;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,8 +221,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80B5A4142A8D476D001665EB /* ViewController.swift in Sources */,
+				80B5A4142A8D476D001665EB /* StartViewController.swift in Sources */,
+				80B5A43B2A8D4F75001665EB /* StartAssembly.swift in Sources */,
+				80B5A4372A8D4DDD001665EB /* StartPresenterProtocol.swift in Sources */,
 				80B5A4102A8D476D001665EB /* AppDelegate.swift in Sources */,
+				80B5A4392A8D4DEC001665EB /* StartPresenter.swift in Sources */,
+				80B5A42D2A8D4BEE001665EB /* StartRouterInput.swift in Sources */,
+				80B5A4302A8D4C0F001665EB /* StartRouter.swift in Sources */,
+				80B5A4352A8D4D5E001665EB /* StartViewInput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,7 +369,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X6QCC36TXK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MPVTestProject/Info.plist;
+				INFOPLIST_FILE = MPVTestProject/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -344,7 +400,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X6QCC36TXK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MPVTestProject/Info.plist;
+				INFOPLIST_FILE = MPVTestProject/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
